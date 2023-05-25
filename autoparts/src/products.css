@@ -1,0 +1,77 @@
+*{
+  font-family:'Times New Roman', Times, serif
+}
+.images{
+    width: 100%;
+    height: 150px;
+}
+.parentbox{
+ display: grid;
+grid-template-columns: repeat(5,180px);
+text-align: center;
+justify-content: space-around;
+
+margin: auto;
+margin-bottom: 50px;
+gap: 10px; 
+
+}
+
+button:hover {
+    /* background-color: #ffd700;
+    transition: 0.2s;
+     */
+  }
+  button{
+    /* border-radius: 5px;
+    border-color:black;
+    width: 60%;
+    height: 30px;
+   background-color: black; */
+    
+  }
+  .selectContainer {
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    gap: 10px;
+    
+  }
+  .selectContainer select {
+   /* height: 30px;
+   font-weight: bolder; */
+  }
+  
+  .HeaderOfProductPage{
+    color: black;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif
+   
+  }
+  .itembox{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 10px;
+    /* padding: auto; */
+    /* background-color:#aaaaa3; */
+    background-color:#f5f5f0;
+    
+  }
+  .star{
+    padding-left:35px;
+  }
+  .upperMostBox{
+    width: 70%;
+    margin: auto;
+    
+  }
+  .price{
+    font-weight: bolder;
+  }
+  .name{
+    color: #7c7c77;
+    font-weight: bold;
+  }
+  .text{
+    text-align: initial;
+    font-weight: bold;
+  }
