@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-//import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { auth, db } from '../Firebase';
 import { Box, Heading, Input, Button, FormControl, Text, FormLabel } from '@chakra-ui/react';
 import { addDoc, collection } from 'firebase/firestore';
 
 export default function Signup() {
-  //const navigate = useNavigate();
+  const navigate = useNavigate();
   const [user, setUser] = useState({
     name: '',
     email: '',
@@ -40,7 +40,7 @@ export default function Signup() {
               email: '',
               password: '',
             });
-           // navigate('/');
+            navigate('/');
           })
           .catch((err) => {
             alert(err.message);
@@ -106,7 +106,7 @@ export default function Signup() {
             Signup
           </Button>
           <Text _hover={{cursor:"pointer"}} c="#FFD5BF" fontWeight={"600"} mt={2}>Already have an account? <span onClick={()=>{
-        //navigate('/login')
+        navigate('/login')
           }} style={{color:"#7766DB",fontWeight:"700"}}>Log In</span></Text>
         </form>
       </Box>

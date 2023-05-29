@@ -1,5 +1,5 @@
 import React, { useState ,useEffect} from 'react';
-//import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { auth} from '../Firebase';
 import {db} from '../Firebase'
 import { FcGoogle } from 'react-icons/fc';
@@ -16,7 +16,7 @@ import {
 import { signInWithEmailAndPassword } from 'firebase/auth';
 
 export default function Login() {
-  //const navigate = useNavigate();
+  const navigate = useNavigate();
   const [user, setUser] = useState({
     email: "",
     password: ""
@@ -29,7 +29,7 @@ export default function Login() {
 
     try {
       await signInWithEmailAndPassword(auth, user.email, user.password);
-     // navigate('/');
+      navigate('/');
     } catch (error) {
       alert("Error");
     }
@@ -83,7 +83,7 @@ export default function Login() {
             </Button>
           </Center>
           <Text _hover={{ cursor: "pointer" }} c="#FFD5BF" fontWeight={"600"} mt={2}>Don't have an account?<span onClick={() => {
-            //navigate('/signup');
+            navigate('/signup');
           }} style={{ color: "#7766DB", fontWeight: "700" }}> Sign Up</span></Text>
         </form>
       </Box>
