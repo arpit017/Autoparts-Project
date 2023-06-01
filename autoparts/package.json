@@ -11,10 +11,18 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.4.0",
+<<<<<<< HEAD
     "framer-motion": "^10.12.14",
     "react": "^18.2.0",
     "react-custom-scrollbars-2": "^4.5.0",
     "react-dom": "^18.2.0",
+=======
+    "firebase": "^9.22.1",
+    "framer-motion": "^10.12.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.9.0",
+>>>>>>> 35000c4fba481916876061588e4604e13c31ed76
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
@@ -28,12 +36,16 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+<<<<<<< HEAD
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
+=======
+ 
+>>>>>>> 35000c4fba481916876061588e4604e13c31ed76
   "browserslist": {
     "production": [
       ">0.2%",
