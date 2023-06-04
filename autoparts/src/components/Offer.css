@@ -1,0 +1,42 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, yellow 50%, white 50%);
+    height: 80vh;
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section-container-O {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 80%;
+    margin-top: 20px;
+  }
+  
+  .section-O {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+  }
+  
+  .section-image-O {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  h2,
+  p {
+    margin: 5px;
+  }
+  

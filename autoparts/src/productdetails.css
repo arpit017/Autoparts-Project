@@ -1,0 +1,14 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.dark{
+    background-color: black;
+}
+.text{
+    text-align: initial;
+    font-weight: bold;
+    /* width: 80%; */
+     /* margin: auto; */
+     margin-top: 60px; 
+  }

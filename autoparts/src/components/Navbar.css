@@ -1,0 +1,154 @@
+.navbar {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+ 
+  
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  /* .top-row-left {
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .top-row-left {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  .top-row-middle {
+    flex-grow: 7;
+    text-align: center;
+  }
+
+  .top-row-right {
+    text-align: right;
+  }
+  
+  .top-row-left span {
+    margin-right: 10px;
+    color: gray;
+  }
+  .top-row-middle span {
+    margin-right: 10px;
+    color: gray;
+  }
+  .top-row-right span {
+    margin-right: 10px;
+    color: gray;
+  }
+  
+  /* .top-row-right {
+    display: flex;
+    align-items: center;
+  } */
+  
+  .fa-phone {
+    margin-right: 5px;
+  }
+  
+  .middle-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    /* padding: 10px; */
+  }
+  
+  .middle-row-left img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .middle-row-middle {
+    display: flex;
+    align-items: center;
+    margin: auto;
+  
+  }
+  
+  .middle-row-middle input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .middle-row-middle button {
+    background-color: #ffd700;
+    /* border: none; */
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    padding-left: 5px;
+  }
+  
+  .middle-row-right {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    
+  }
+  
+  .middle-row-right span {
+    margin-left: 10px;
+  }
+
+  .top-row-right span {
+    margin-left: 5px;
+    /* color: yellow; */
+  }
+  
+  
+  .font-icon{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.3em;
+  }
+
+  .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  .link {
+    cursor: pointer;
+  }
+  
+  .link:hover {
+    color: #ffd700;
+    text-decoration: underline;
+  }
+  
+  @media (min-width: 10px) and (max-width: 1060px) {
+    /* CSS rules for medium screens */
+    
+      .bottom-row{
+      display: none;
+     }
+      .middle-row-middle{
+      display: none;
+     }
+     .top-row{
+      display: none;
+     } 
+     .middle-row-right{
+      display: none;
+     }   
+
+     /* .navbar{
+      display:none;
+     } */
+
+  }
